@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- wap to input a number and print its sum of digits
+    987=>9+8+7
+    9871=25
+    98712=27
+
+    -->
+
+    <script>
+// let a = 987
+// let sum = 0
+// let c=0
+// while(a!=0){
+//     c=c+1
+//     b=a%10
+//     sum=sum+b
+//     a=Math.floor(a/10)
+// }
+// document.write(sum + " " + c)
+
+let a = 456
+let sum = 0
+let c = 0
+ while(a!=0){
+    c=c+1
+    b=a%10
+    sum=sum+b
+    a=Math.floor(a/10)
+ }
+ document.write(sum+ " " + c)
+
+    </script>
+
+    <!-- 
+a=987
+c=0
+sum=0
+987!=0(true)
+case1
+c=c+1
+c=c+1=0+1=1
+b=987%10=7
+sum=0+7=7
+a=Math.floor(987/10)=98
+
+c=1
+b=7 
+sum=7
+a=98
+
+case 2
+c=2
+b=8
+sum=15
+a=9
+
+case 3
+c=3
+b=9
+sum=24
+a=0
+    -->
+
+
+</body>
+</html>
