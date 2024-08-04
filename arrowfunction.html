@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*
+arrow function / anonymous
+const sum=()=>{
+statements
+}
+*/
+// const reverse=(a)=>{
+//     sum=0
+//     while(a!=0){
+//         b=a%10
+//         sum=sum*10+b
+//         a=Math.floor(a/10)
+//     }
+//     document.write(sum)
+// }
+// reverse(123)
+
+        // count the given number digits using arrow function
+
+        const counts=(a)=>{
+            c=0
+            while(a!=0){
+                c=c+1
+                a=Math.floor(a/10)
+            }
+            document.write(c)
+        }
+counts(341)
+    </script>
+</body>
+</html>

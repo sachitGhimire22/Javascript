@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+    <script>
+        // Array: collection of different data types
+        let arr = [1,2,3,"a","b","c",[4,5,6],{"key":"value"},true,false]
+        document.write("<br> Array length: " + arr.length)
+         document.write("<br> First member: "+ arr[0]) 
+
+         let fruits = ["apple", "orange", "mango", "grapes", "pineapple"]
+
+         fruits.push("pear")
+         document.write("<br> Push Result: " + fruits)
+
+         fruits.unshift("Papaya")
+         document.write("<br> Unshift result: " + fruits)
+
+         fruits.pop()
+         document.write("<br> Pop result: " + fruits)
+
+         fruits.shift()
+         document.write("<br> Shift result: " + fruits)
+
+         fruits.splice(2,2,"potato","rice")
+         document.write("<br> Splice result: " + fruits)
+
+         fruits.sort()
+         document.write("<br>Sort Result: " + fruits)
+
+         fruits.reverse()
+         document.write("<br> Reverse result: " + fruits)
+
+         let num = [55,65,45,15,105,205,25,35,11]
+         num.sort((a,b)=>a-b)
+         document.write("<br> Number sort: " + num)
+
+         for(i=0; i< fruits.length;i++){
+            document.write("<h1>"+ fruits[i] + "</h1>")
+         }
+
+    </script>
+</body>
+</html>
